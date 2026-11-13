@@ -31,7 +31,9 @@ Debes traducir estrictamente al decorador `@Rule` de `experta` las reglas formal
 ---
 
 ## 🛠️ Reglas de Programación Obligatorias
-1. **Importación canónica:** Utilizar las clases de `marcos.py`:
+1. **Convención y Patrón de Referencia (Mitchell Blancas):**
+   * Seguir las buenas prácticas demostradas en la clase del [Ing. Mitchell Blancas](https://youtu.be/wZz7ZKaEyGQ) para estructurar el motor de reglas en `experta`, enlazando hechos intermedios y evitando re-disparos cíclicos.
+2. **Importación canónica:** Utilizar las clases de `marcos.py`:
    ```python
    from marcos import (
        Rule, KnowledgeEngine, Contexto, Cliente, Insumo,

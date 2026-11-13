@@ -81,3 +81,13 @@ python3 marcos.py
 ```
 
 El script cuenta con un *fallback* autónomo en Python puro, permitiendo que se ejecute y verifique la lógica incluso sin tener instalada la librería `experta`.
+
+---
+
+## 📚 Referencias Bibliográficas y Recursos de Estudio
+
+1. **Mitchell Blancas:** *"Sistema experto y sistema basado en conocimiento - Parte 2 (Programación en Python con Experta)"*. [Ver en YouTube](https://youtu.be/wZz7ZKaEyGQ?si=5OfwrloG9d754lfM).
+   * Referencia metodológica principal utilizada por el equipo para el diseño de la arquitectura del motor de inferencia, asignación de identificadores con `AS`, y encadenamiento hacia adelante.
+2. **Minsky, Marvin (1974):** *"A Framework for Representing Knowledge"*. MIT-AI Laboratory Memo 306 (Teoría de Marcos / *Frames*).
+3. **Cátedra InCo (2026):** Material y guías de Trabajos Prácticos 1 al 5, Facultad de Ingeniería – UNJu.
+

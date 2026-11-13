@@ -17,6 +17,7 @@
 2. **Consolidar el Informe Final:**
    * Unificar las Actividades 1 a 4 con la Actividad 5 (implementación en código, interfaz y validación).
    * Supervisar que el código final programado por los Ingenieros 1 y 2 refleje exactamente la tabla de formalización lógica sin inventar nombres ni cambiar la semántica.
+   * **Referencia Metodológica Obligatoria:** Citar e incorporar en el marco teórico y bibliográfico la clase magistral del **Ing. Mitchell Blancas**: *"Sistema experto y sistema basado en conocimiento - Parte 2 (Implementación de Experta en Python)"* (URL: https://youtu.be/wZz7ZKaEyGQ).
 
 ---
 
