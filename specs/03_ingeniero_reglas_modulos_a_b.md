@@ -37,7 +37,10 @@ Debes traducir estrictamente al decorador `@Rule` de `experta` las reglas formal
 ## 🛠️ Reglas de Programación Obligatorias
 1. **Convención y Patrón de Referencia (Mitchell Blancas):**
    * Seguir el patrón de diseño explicado en el video de referencia [*Sistema experto y SBC en Python con Experta* de Mitchell Blancas](https://youtu.be/wZz7ZKaEyGQ), utilizando `KnowledgeEngine`, decoradores `@Rule`, captura de hechos con `AS` (`AS.f << Fact(...)`) y declaración encadenada con `self.declare(...)`.
-2. **Importación canónica:** Importar los marcos desde `marcos.py`:
+2. **Reglas de Estilo de Sistemas de Producción (Guía CLIPS UJaén):**
+   * *Nunca llamar a una regla desde otra:* El encadenamiento debe ser 100% reactivo impulsado por datos (*data-driven*), declarando hechos intermedios en la Memoria de Trabajo (`self.declare(...)`).
+   * *Evitar reglas anidadas:* Cada regla debe tener una precondición atómica clara.
+3. **Importación canónica:** Importar los marcos desde `marcos.py`:
    ```python
    from marcos import (
        Rule, KnowledgeEngine, Contexto, Cliente, Insumo,

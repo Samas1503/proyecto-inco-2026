@@ -1,0 +1,73 @@
+# Tutorial de CLIPS (I) - Universidad de Jaén
+Autor: Fernando Martínez Santiago (a partir del tutorial de Franz Kurfess y Univ. de Zaragoza)
+Fuente: Universidad de Jaén (http://wwwdi.ujaen.es/~dofer/ico/material/CLIPS-Tutorial-1.html)
+
+========================================================================
+1. TRABAJANDO CON CLIPS
+========================================================================
+Comandos básicos de consola (entre paréntesis):
+- (exit) : Sale de CLIPS.
+- (clear): Elimina datos y programas de la memoria (reset completo).
+- (reset): Elimina la información dinámica de la memoria de trabajo (MT), 
+           resetea la agenda y asevera el hecho base (initial-fact).
+- (run)  : Comienza el ciclo de inferencia y encadenamiento hacia adelante.
+
+========================================================================
+2. HECHOS Y MEMORIA DE TRABAJO (MT)
+========================================================================
+Un hecho es una pieza atómica de información: (colour green), (animal-es pato).
+- (assert (colour green)) -> Asevera el hecho y devuelve <Fact-0>.
+- (facts)                 -> Lista todos los hechos vigentes en la Memoria de Trabajo.
+- (retract <indice>)      -> Elimina un hecho de la MT por su número de índice.
+
+========================================================================
+3. REGLAS DE PRODUCCIÓN (defrule)
+========================================================================
+Estructura:
+(defrule <nombre-regla>
+   <patron-1>      ; LHS (Left-Hand Side / Precondición)
+   <patron-2>
+   =>
+   <accion-1>      ; RHS (Right-Hand Side / Postcondición)
+   <accion-2>
+)
+
+Ejemplo:
+(defrule pato
+   (animal-es pato)
+   =>
+   (assert (sonido-es quack))
+   (printout t "Esto es un pato" crlf))
+
+Encadenamiento de reglas:
+(defrule es-esto-un-pato
+   (animal-tiene pies-palmeados)
+   (animal-tiene plumas)
+   =>
+   (assert (animal-es pato)))
+
+Al aseverar pies-palmeados y plumas, 'es-esto-un-pato' se dispara y asevera (animal-es pato), 
+el cual a su vez dispara 'pato' que asevera (sonido-es quack).
+
+========================================================================
+4. OPERADORES CONDICIONALES (AND, OR, NOT)
+========================================================================
+- AND implícito entre patrones consecutivos.
+- (not (<patron>)) : La regla se activa si NO existe el hecho en la MT.
+  Requiere haber ejecutado (reset) previamente para disponer de (initial-fact).
+
+========================================================================
+5. CONSEJOS DE ESTILO EN SISTEMAS EXPERTOS (REGLAS DE ORO)
+========================================================================
+1. Evitar el uso excesivo de OR: Es preferible descomponerlo en reglas independientes.
+2. Simular el 'else' de programación tradicional mediante reglas con patrones negados (not).
+3. NUNCA invocar una regla desde la acción de otra regla ni usar reglas anidadas.
+   El encadenamiento debe lograrse de forma reactiva a través de hechos intermedios 
+   en la Memoria de Trabajo.
+
+========================================================================
+6. DEPURACIÓN Y TRAZABILIDAD DE LA AGENDA
+========================================================================
+- (agenda)              : Muestra el conjunto de conflicto (reglas instanciadas listas para disparar).
+- (watch facts / rules) : Traza la inserción (==>) y eliminación (<==) de hechos y disparos (FIRE).
+- (matches <regla>)     : Muestra qué hechos reconocieron cada patrón de la regla.

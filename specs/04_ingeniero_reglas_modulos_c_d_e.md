@@ -33,7 +33,9 @@ Debes traducir estrictamente al decorador `@Rule` de `experta` las reglas formal
 ## 🛠️ Reglas de Programación Obligatorias
 1. **Convención y Patrón de Referencia (Mitchell Blancas):**
    * Seguir las buenas prácticas demostradas en la clase del [Ing. Mitchell Blancas](https://youtu.be/wZz7ZKaEyGQ) para estructurar el motor de reglas en `experta`, enlazando hechos intermedios y evitando re-disparos cíclicos.
-2. **Importación canónica:** Utilizar las clases de `marcos.py`:
+2. **Reglas de Estilo de Sistemas de Producción (Guía CLIPS UJaén):**
+   * *Encadenamiento puro por hechos intermedios:* Para modelar la secuencia operativa de la carne ($AU \implies AV \implies AW \implies AX \implies AY \implies AZ$), no anidar funciones; permitir que cada regla asevere el nuevo estado en la Memoria de Trabajo para activar la siguiente regla en el siguiente ciclo.
+3. **Importación canónica:** Utilizar las clases de `marcos.py`:
    ```python
    from marcos import (
        Rule, KnowledgeEngine, Contexto, Cliente, Insumo,

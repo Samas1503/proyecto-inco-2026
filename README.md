@@ -88,6 +88,8 @@ El script cuenta con un *fallback* autónomo en Python puro, permitiendo que se 
 
 1. **Mitchell Blancas:** *"Sistema experto y sistema basado en conocimiento - Parte 2 (Programación en Python con Experta)"*. [Ver en YouTube](https://youtu.be/wZz7ZKaEyGQ?si=5OfwrloG9d754lfM).
    * Referencia metodológica principal utilizada por el equipo para el diseño de la arquitectura del motor de inferencia, asignación de identificadores con `AS`, y encadenamiento hacia adelante.
-2. **Minsky, Marvin (1974):** *"A Framework for Representing Knowledge"*. MIT-AI Laboratory Memo 306 (Teoría de Marcos / *Frames*).
-3. **Cátedra InCo (2026):** Material y guías de Trabajos Prácticos 1 al 5, Facultad de Ingeniería – UNJu.
+2. **Martínez Santiago, Fernando (Universidad de Jaén):** *"Tutorial de CLIPS (I)"*. [Archivado en Wayback Machine](https://web.archive.org/web/20100510113711/http://wwwdi.ujaen.es/~dofer/ico/material/CLIPS-Tutorial-1.html).
+   * Fuente teórica fundamental sobre Sistemas de Producción, ciclo de inferencia, gestión de Memoria de Trabajo (MT), resolución del conjunto de conflicto (Agenda) y reglas de estilo para encadenamiento hacia adelante.
+3. **Minsky, Marvin (1974):** *"A Framework for Representing Knowledge"*. MIT-AI Laboratory Memo 306 (Teoría de Marcos / *Frames*).
+4. **Cátedra InCo (2026):** Material y guías de Trabajos Prácticos 1 al 5, Facultad de Ingeniería – UNJu.
 

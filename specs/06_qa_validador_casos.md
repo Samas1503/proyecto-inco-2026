@@ -29,6 +29,7 @@
    * Ajustar la **salience** (prioridades numéricas en `@Rule(salience=...)`) para garantizar que se respete la estrategia de resolución de conflictos de la cátedra (ej. Regla del Mínimo Subíndice o Especificidad).
 3. **Reporte de Cobertura y Trazabilidad:**
    * Comprobar que las salidas por consola y en los asserts coincidan exactamente carácter por carácter con las tablas de equiparación de la Actividad 4.
+   * *Trazabilidad de Agenda y Disparos:* Reproducir conceptualmente las directivas `(watch facts)`, `(watch rules)` y `(agenda)` de CLIPS (ver `documentos_referencia/clips_tutorial_ujaen.txt`) mostrando en la salida de pruebas cuándo un hecho entra (`WM+`), cuándo una regla se activa en el conjunto de conflicto y cuándo se ejecuta el disparo (`FIRE`).
 
 ---
 

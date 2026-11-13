@@ -10,7 +10,8 @@
 1. **Redactar el Estudio Evaluativo de Herramientas Candidatas:**
    * Comparar teóricamente las herramientas tradicionales de Sistemas Basados en Conocimiento: **CLIPS**, **DROOLS**, **SWI-Prolog** frente a **Python + Experta**.
    * Justificar rigurosamente por qué se descartaron las demás en favor de Python con Experta:
-     * **CLIPS:** Excelente para encadenamiento hacia adelante, pero sintaxis estilo LISP poco integrable con interfaces web modernas y ecosistemas de datos.
+     * **CLIPS:** Excelente para encadenamiento hacia adelante con el algoritmo Rete, pero sintaxis estilo LISP basada en archivos `.clp` (`defrule`, `assert`, `retract`) que dificulta la integración con interfaces web modernas (Streamlit), requeriría bindings externos en C (`clipsmm` o `pyclips`) y carece de portabilidad nativa en Google Colab.
+       * *Referencia CLIPS:* Material docente de la Universidad de Jaén (*Tutorial de CLIPS - Prof. Fernando Martínez Santiago*, archivado en `documentos_referencia/clips_tutorial_ujaen.txt`).
      * **DROOLS:** Basado en Java, alta sobrecarga de configuración empresarial, innecesariamente complejo para el alcance del dominio gastronómico del local.
      * **SWI-Prolog:** Paradigma lógico puro con encadenamiento hacia atrás (*backward chaining*) nativo; requeriría metaprogramación compleja para emular el encadenamiento hacia adelante impulsado por datos (*data-driven*) que exige la planificación de inventarios.
      * **Python + Experta:** Encadenamiento hacia adelante nativo (algoritmo Rete simplificado), integración fluida con Streamlit, sintaxis limpia orientada a objetos (Marcos de Minsky) y portabilidad inmediata en Google Colab.
