@@ -29,6 +29,19 @@ Este **Sistema Basado en Conocimiento (SBC)** modela la experiencia heurística 
 ## 📂 Estructura del Repositorio
 
 ```text
+├── frontend/
+│   ├── app.py                               # Interfaz gráfica en Streamlit con Módulo de Explicación
+│   ├── requirements.txt                     # Dependencias del frontend
+│   └── README.md                            # Guía de ejecución del servidor Streamlit
+│
+├── specs/
+│   ├── README.md                            # Guía maestra y Protocolo Mandatorio Grill-With-Me
+│   ├── 01_coordinador_estudio_evaluativo.md # Especificación Punto 1
+│   ├── 03_ingeniero_reglas_modulos_a_b.md   # Especificación Punto 3 (Reglas R1 a R18)
+│   ├── 04_ingeniero_reglas_modulos_c_d_e.md # Especificación Punto 4 (Reglas R19 a R30)
+│   ├── 05_desarrollador_frontend_explicacion.md # Especificación Punto 5 (UI y Explicación)
+│   └── 06_qa_validador_casos.md             # Especificación Punto 6 (QA y Casos de Prueba)
+│
 ├── implementacion/
 │   ├── IC2026 - Trabajo de Campo - G2.ipynb   # Cuaderno interactivo central para Google Colab
 │   ├── main.ipynb                           # Alias estándar del notebook principal
