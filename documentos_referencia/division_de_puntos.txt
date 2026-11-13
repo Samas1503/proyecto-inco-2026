@@ -1,0 +1,36 @@
+﻿1. Coordinador y Redactor Técnico (Estudio Evaluativo)
+* Responsabilidad: Liderar la redacción del informe de la Actividad 5 y asegurar la cohesión del proyecto final.
+* Tareas específicas:
+   * Redactar el "Estudio evaluativo de las herramientas candidatas", justificando teóricamente por qué se descartaron CLIPS, DROOLS o SWI-Prolog en favor de Python con la librería Experta (debido al encadenamiento hacia adelante nativo).
+   * Consolidar los documentos de las Actividades 1 a la 4 junto con la Actividad 5 en un único informe final pulido y con formato académico.
+   * Supervisar que el código final se alinee con las reglas teóricas planteadas en la etapa de formalización.
+2. Arquitecto de Base de Hechos (Modelado de Marcos / Frames)
+* Responsabilidad: Traducir el diccionario de proposiciones y el diseño del inventario a código Python.
+* Tareas específicas:
+   * Configurar el entorno virtual e instalar la librería experta.
+   * Programar las clases bases (heredando de Fact en Experta) que representarán los Marcos del dominio (Ej. crear la clase Insumo, Entorno, Comanda, Proveedor).
+   * Diseñar la estructura inicial de la "Memoria de Trabajo", definiendo cómo se cargarán los hechos iniciales (clima, tipo de cliente, día de la semana) al iniciar el motor de inferencia.
+3. Ingeniero de Reglas Lógicas 1 (Módulos A y B)
+* Responsabilidad: Programar el núcleo predictivo y de compras del Motor de Inferencia.
+* Tareas específicas:
+   * Traducir al lenguaje de Experta (utilizando el decorador @Rule) las reglas de Predicción de Demanda y Menú (Reglas R_A a R_K).
+   * Programar las reglas de Adquisición y Proveedores (Reglas R_L a R_R).
+   * Asegurar que la sintaxis de las condiciones en Python (AND/OR lógicos) refleje exactamente lo diseñado en la tabla de formalización.
+4. Ingeniero de Reglas Lógicas 2 (Módulos C, D y E)
+* Responsabilidad: Programar el núcleo operativo y de control de crisis del Motor de Inferencia.
+* Tareas específicas:
+   * Traducir a código Experta las reglas de Almacenamiento y Conservación (Reglas R_S a R_Y).
+   * Programar las reglas de Operación en Servicio frente a faltantes críticos (Reglas R_Z a R_AA).
+   * Programar el Control de Mermas y Ajuste de Precios (Reglas R_AB a R_AD), incluyendo las "facetas procedimentales" (acciones automáticas cuando la carne cambia de color o sube de precio).
+5. Desarrollador de Interfaz y Módulo de Explicación
+* Responsabilidad: Conectar el motor lógico con el usuario final humano.
+* Tareas específicas:
+   * Crear un menú de consola simple (o una interfaz rápida en Streamlit) para que el profesor/usuario pueda ingresar los hechos del día ("¿Qué día es hoy?", "¿Cómo está el clima?", "¿Hay faltantes?").
+   * Programar el "Módulo de Explicación": asegurar que cada vez que se dispare una regla, el sistema imprima en pantalla un mensaje claro justificando la decisión (Ej. print("-> Sugerencia: Ofrecer sopas porque la temperatura es fría (Regla E)")).
+6. Analista de Pruebas (QA) y Validador de Casos
+* Responsabilidad: Garantizar que el encadenamiento hacia adelante funcione sin ciclos infinitos y respete las prioridades.
+* Tareas específicas:
+   * Ejecutar repetidamente el código integrando las partes programadas por los Ingenieros 1 y 2.
+   * Forzar en el sistema los 3 Casos de Uso planteados en la Actividad 4 (Alta demanda por quincena, Crisis un domingo, Ajuste por clima) y verificar que la salida por consola coincida exactamente con las tablas de trazabilidad.
+   * Ajustar las "salience" (prioridades numéricas de las reglas en Experta) si el sistema no está respetando la Regla del Mínimo Subíndice.
+   * Preparar los escenarios de prueba para la demostración en caso de que los profesores pidan ver el software en vivo.

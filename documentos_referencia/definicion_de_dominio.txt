@@ -1,0 +1,198 @@
+﻿Búsqueda de un especialista con experiencia en el dominio. Por ejemplo: servicio de catering, elaboración de menús personalizados, actividades que se realizan en panaderías, restaurantes, cafeterías, puestos de comidas, etc.
+
+
+Experta: .
+
+
+El trabajo de campo consistirá en el desarrollo de un SBC. El sistema sería un Asesor Virtual cuyo objetivo es brindar orientación en la/s tarea/s seleccionada/s. Para ello deberán: a. Recopilar bibliografía (documentación de simple lectura) que permita conocer el dominio sobre el cual se realizará el trabajo. 
+
+
+b. Realizar una descripción breve y clara del dominio sobre el cual realizará el trabajo. 
+
+
+Al preparar las preguntas para el experto y mapear los flujos de trabajo del restaurante, las responsabilidades sobre el personal se dividen en módulos operativos claros.
+
+
+Título del Proyecto
+Diseño de un Sistema Basado en Conocimiento para la Optimización de Inventarios y Reducción de Desperdicios en el Sector Gastronómico
+Descripción del Dominio y el Problema
+El dominio de este proyecto se enmarca en la planificación inteligente de compras y el control de insumos. En el rubro gastronómico, la toma de decisiones sobre qué y cuánto comprar no se resuelve únicamente con un inventario matemático de entradas y salidas. Es un proceso complejo donde el encargado de compras busca equilibrar constantemente dos riesgos principales:
+1. La falta de productos: Quedarse sin ingredientes clave interrumpe el servicio, genera una mala experiencia para el cliente y resulta en ventas perdidas.
+2. El exceso de compras: Adquirir insumos perecederos de más genera desperdicios (mermas) por vencimiento, lo que representa una pérdida económica directa para el local.
+Para resolver este problema en el día a día, el experto humano no utiliza fórmulas rígidas, sino que aplica su experiencia para analizar el contexto. Evalúa factores internos (como el nivel de reservas) y externos (como el clima, los fines de semana largos o fechas de cobro) para anticipar qué van a consumir los clientes.
+El objetivo de este Sistema Basado en Conocimiento será capturar esa experiencia, estructurarla y automatizarla para que el local pueda generar recomendaciones de compra precisas e inteligentes, sin depender exclusivamente de la intuición de una sola persona.
+
+
+Tener a un experto que maneja esas tres áreas es una mina de oro para un proyecto de Ingeniería del Conocimiento. De las tres opciones, Insumos (Gestión de Compras y Mermas) es, por lejos, la más interesante, factible y clásica para automatizar con un Sistema Basado en Conocimiento para un trabajo universitario.
+Aquí te desgloso por qué Insumos es la mejor opción, seguida de cómo se comparan las otras dos.
+1. Insumos (La opción ganadora)
+El manejo de inventario en gastronomía está lleno de "heurísticas" (atajos mentales y reglas empíricas) que el experto usa sin darse cuenta. No se trata de una simple resta matemática, sino de anticipación.
+* El Problema: Comprar de menos significa perder ventas; comprar de más significa tirar comida (dinero) a la basura.
+* Por qué es ideal para el SBC: El experto utiliza reglas lógicas claras pero multivariables. Por ejemplo, evalúa el clima, si es fin de semana largo, si hay un evento en la ciudad, y qué proveedores tienen demoras.
+* El Sistema: Un Sistema Experto o un CBR (Razonamiento Basado en Casos). Imagina un local con una dinámica compleja (como un bar temático o un modelo de negocio con reservas tipo Karaoke donde se mezcla servicio y entretenimiento): el consumo de bebida o comida coreana no es lineal, depende fuertemente de variables de contexto. El sistema podría sugerir: "Comprar un 30% más de soju y snacks porque el caso de hace dos meses con clima y reservas similares agotó el stock en 4 horas."
+2. Ventas (Interesante, pero más estadística)
+Automatizar la lógica de ventas también es atractivo, enfocado en predecir picos de demanda o armar promociones.
+* El Problema: Qué vender, a qué precio y cómo armar combos para maximizar ganancias.
+* Por qué es un poco más difícil: Muchas veces las ventas se modelan mejor con Machine Learning tradicional (estadística pura) que con reglas de conocimiento extraídas de un humano, aunque un CBR funciona excelente para sugerir promociones basadas en casos exitosos del pasado.
+3. Recursos Humanos (La más compleja de formalizar)
+La gestión de turnos o la resolución de conflictos.
+* El Problema: Quién trabaja qué día, cómo cubrir francos médicos o cómo evaluar el desempeño.
+* Por qué evitarla para este TP: Las decisiones de RRHH suelen tener un componente emocional o subjetivo muy alto que es dificilísimo de traducir a reglas formales lógicas (SI - ENTONCES) sin que el sistema quede demasiado rígido o simplista.
+Cómo estructurar el trabajo de campo (Enfoque en Insumos)
+Si eligen ir por Insumos, el trabajo de campo consistirá en "exprimir" la lógica del experto. Para optimizar el tiempo, pueden dividir las tareas del relevamiento en el equipo:
+1. Entrevistas de Escenarios de Crisis:  pueden plantearle al experto situaciones límite. (Ej: "Es viernes a las 20:00, el proveedor de carne no llegó, ¿qué platos das de baja y qué compras en el supermercado local para zafar?")
+2. Entrevistas de Planificación: pueden indagar sobre las reglas de anticipación. (Ej: "¿Cómo calculas cuánto stock de bebidas pedir para el fin de semana del Día del Amigo?")
+3. Modelado: Pablo puede encargarse de ir traduciendo esas respuestas en bruto a reglas lógicas formales que alimentarán la base de conocimiento.
+
+
+Área
+	Facilidad para extraer reglas
+	Impacto visual para los profes
+	Mejor tipo de SBC
+	Insumos
+	Alta (Lógica dura, reglas claras)
+	Muy Alto (Ahorra dinero visiblemente)
+	Sistema Experto / CBR
+	Ventas
+	Media (Depende de tendencias)
+	Alto (Aumenta ingresos)
+	Razonamiento Basado en Casos
+	RH
+	Baja (Muy subjetivo/humano)
+	Medio (Optimiza tiempos)
+	Sistema Experto (Asignación)
+	
+
+Título del Proyecto
+Diseño de un Sistema Basado en Conocimiento para la Gestión Estocástica de Inventarios y Mitigación de Mermas en Entornos Gastronómicos
+Definición Técnica del Dominio
+El dominio del problema se enmarca en la optimización de la cadena de suministro interna y la gestión dinámica de inventarios. A diferencia de un sistema transaccional estándar (que opera mediante álgebra relacional para el control de stock mediante entradas y salidas), este dominio se caracteriza por su alta variabilidad y la presencia de incertidumbre.
+El proceso de toma de decisiones del experto no se basa en un Punto de Reorden (ROP - Reorder Point) estático, sino que es un modelo multivariable que busca minimizar la función de costo asociada a dos riesgos opuestos:
+1. Rotura de stock (Stock-out): Pérdida de costo de oportunidad e impacto negativo en la experiencia del usuario.
+2. Sobre-stockeo: Generación de mermas por caducidad de insumos perecederos y capital inmovilizado.
+Para resolver esto, el experto utiliza heurísticas empíricas que evalúan variables endógenas (capacidad de almacenamiento, nivel de reservas, rotación histórica de platos) y variables exógenas (factores climáticos, estacionalidad, eventos locales y disponibilidad de la red de proveedores). El Sistema Basado en Conocimiento (SBC) tendrá como objetivo capturar, formalizar y automatizar esta heurística para emitir recomendaciones prescriptivas de abastecimiento.
+Arquitectura Propuesta
+Para este dominio, el enfoque más adecuado es un Sistema Basado en Reglas (Sistema Experto) con un motor de inferencia que utilice encadenamiento hacia adelante (Forward Chaining), dado que el sistema partirá de un conjunto de hechos iniciales (estado del inventario, fecha, clima) para inferir conclusiones (órdenes de compra sugeridas).
+Componentes del Sistema:
+* Base de Conocimiento: Almacenará las reglas de producción extraídas del experto humano, representadas en lógica proposicional.
+* Memoria de Trabajo: Mantendrá el estado temporal del sistema (ej. niveles de stock actuales, pronóstico del clima para las próximas 48 horas).
+* Motor de Inferencia: Evaluará las condiciones de las reglas contra la memoria de trabajo para generar las órdenes de compra.
+* Módulo de Explicación: Trazará el árbol de decisión para justificar la sugerencia de aprovisionamiento ante el usuario final.
+Ejemplo de Formalización del Conocimiento
+Durante la fase de Adquisición de Conocimiento, el ingeniero extrae información cualitativa del experto mediante entrevistas y la traduce a un formato procesable por el sistema.
+1. El conocimiento tácito del experto (Entrevista en bruto):
+"Si veo que este fin de semana es quincena, hay pronóstico de lluvia y tenemos reservas altas para grupos grandes, sé que la gente no va a pedir tanta comida elaborada, sino que van a consumir mucha más bebida blanca y snacks rápidos para compartir. En esos casos, ignoro el stock mínimo habitual y le pido al proveedor un 40% extra de destilados y papas, pero corto la compra de vegetales frescos a la mitad porque se me van a pudrir."
+2. Representación Formal (Reglas de Producción):
+Este conocimiento difuso se traduce en variables de estado y reglas lógicas evaluables por el motor de inferencia:
+Variables de entrada (Hechos):
+* fecha_cobro = TRUE
+* clima_pronostico = LLUVIA
+* volumen_reservas = ALTO
+* tipo_reservas = GRUPOS
+Reglas en la Base de Conocimiento:
+Plaintext
+REGLA_015 (Patrón de Consumo por Clima y Fecha):
+SI 
+    (fecha_cobro == TRUE) AND 
+    (clima_pronostico == LLUVIA) AND 
+    (tipo_reservas == GRUPOS)
+ENTONCES 
+    INFERIR comportamiento_consumo = "ALTA_BEBIDA_BAJA_ELABORACION"
+
+
+REGLA_016 (Ajuste Dinámico de Inventario):
+SI 
+    (comportamiento_consumo == "ALTA_BEBIDA_BAJA_ELABORACION")
+ENTONCES 
+    MODIFICAR umbral_compra(Categoria: "Destilados") = +40%
+    MODIFICAR umbral_compra(Categoria: "Snacks") = +40%
+    MODIFICAR umbral_compra(Categoria: "Vegetales_Frescos") = -50%
+    GENERAR_ALERTA_COMPRA()
+
+
+3. Intervención del Módulo de Explicación:
+Cuando el sistema emite la orden de compra reducida para vegetales, el usuario podría cuestionar la decisión.
+* Pregunta del usuario: "¿CÓMO se determinó reducir la compra de vegetales en un 50% si el volumen de reservas es ALTO?"
+* Respuesta del Módulo: "La reducción se infirió a través de la REGLA_016. Esta regla se activó porque la REGLA_015 determinó un comportamiento de 'Alta Bebida / Baja Elaboración', basado en los hechos actuales: es fin de semana de cobro, las reservas son grupales y hay pronóstico de lluvia."
+
+
+Título del Proyecto
+Diseño de un Sistema Basado en Conocimiento para la Optimización de Inventarios y Reducción de Desperdicios en el Sector Gastronómico
+Descripción del Dominio y el Problema
+El dominio de este proyecto se enmarca en la planificación inteligente de compras y el control de insumos. En el rubro gastronómico, la toma de decisiones sobre qué y cuánto comprar no se resuelve únicamente con un inventario matemático de entradas y salidas. Es un proceso complejo donde el encargado de compras busca equilibrar constantemente dos riesgos principales:
+1. La falta de productos: Quedarse sin ingredientes clave interrumpe el servicio, genera una mala experiencia para el cliente y resulta en ventas perdidas.
+2. El exceso de compras: Adquirir insumos perecederos de más genera desperdicios (mermas) por vencimiento, lo que representa una pérdida económica directa para el local.
+Para resolver este problema en el día a día, el experto humano no utiliza fórmulas rígidas, sino que aplica su experiencia para analizar el contexto. Evalúa factores internos (como el nivel de reservas) y externos (como el clima, los fines de semana largos o fechas de cobro) para anticipar qué van a consumir los clientes.
+El objetivo de este Sistema Basado en Conocimiento será capturar esa experiencia, estructurarla y automatizarla para que el local pueda generar recomendaciones de compra precisas e inteligentes, sin depender exclusivamente de la intuición de una sola persona.
+
+
+Arquitectura Propuesta
+Para abordar este problema, el modelo más adecuado es un Sistema Basado en Reglas (Sistema Experto). Este enfoque permite traducir la experiencia humana en normas lógicas y transparentes.
+El sistema se compondrá de las siguientes partes fundamentales:
+* Base de Conocimiento: Es el archivo donde se guardarán todas las reglas de decisión (del tipo "SI ocurre esto, ENTONCES haz aquello") que se obtengan tras entrevistar al encargado.
+* Memoria de Trabajo: Es el espacio donde el sistema recibe y analiza la situación actual (por ejemplo: "hoy es viernes, llueve y hay 50 reservas").
+* Motor de Inferencia: Es el mecanismo lógico que cruza la situación actual (Memoria de Trabajo) con la experiencia guardada (Base de Conocimiento) para deducir qué lista de compras sugerir.
+* Módulo de Explicación: La herramienta que le permitirá al usuario humano entender cómo el sistema llegó a esa conclusión.
+Ejemplo de Aplicación (Caso Práctico)
+A continuación se muestra cómo el sistema transforma la experiencia humana en conocimiento estructurado.
+1. El conocimiento del experto (Información obtenida en la entrevista):
+"Cuando llega el fin de semana y la gente recién cobra, si además está lloviendo y las reservas son en su mayoría para grupos grandes, sé por experiencia que casi no piden platos elaborados. Prefieren quedarse tomando y pedir cosas para picar. En esos casos, pido un 40% más de bebidas y snacks al proveedor, pero compro la mitad de la verdura fresca para que no se eche a perder en la heladera."
+2. Representación Formal (Reglas del Sistema):
+El sistema convierte esa anécdota en reglas lógicas que la computadora puede evaluar.
+Datos ingresados al sistema hoy:
+* Fecha de cobro = Sí
+* Clima = Lluvia
+* Tipo de clientela = Grupos grandes
+Cómo lo procesa la Base de Conocimiento:
+Plaintext
+REGLA 1 (Identificación del contexto):
+SI (es fecha de cobro) Y (llueve) Y (las reservas son grupales)
+ENTONCES el comportamiento de consumo esperado es "Mucha bebida y poco plato elaborado".
+
+
+REGLA 2 (Decisión de compra):
+SI (el comportamiento esperado es "Mucha bebida y poco plato elaborado")
+ENTONCES 
+- Aumentar la compra de bebidas un 40%.
+- Aumentar la compra de snacks un 40%.
+- Reducir la compra de vegetales frescos un 50%.
+
+
+3. Intervención del Módulo de Explicación:
+El sistema le sugiere al dueño del local comprar muy poca verdura fresca para el fin de semana. Como el dueño sabe que el local estará lleno, desconfía de la sugerencia y le pide una justificación al sistema.
+* El Módulo de Explicación responde: "Se sugiere reducir la compra de vegetales a la mitad CÓMO resultado de analizar el pronóstico de lluvia, la fecha de cobro y las reservas grupales. La experiencia indica que, bajo estas tres condiciones simultáneas, los clientes priorizan el consumo de bebidas y snacks, por lo que comprar el volumen habitual de vegetales generaría desperdicios."
+
+
+
+
+Reclutamiento y Contratación
+
+
+* Definición de perfiles de puesto (cocina, salón, barra, caja).
+* * Filtrado de candidatos y realización de pruebas prácticas (ej. prueba de fuego en cocina o de servicio en mesas).
+* * Altas de nuevos empleados, recopilación de documentación legal y firma de contratos.
+* Control de Asistencia y Planificación
+
+
+* Diseño de mallas horarias y turnos rotativos, equilibrando los picos de demanda operativa (fines de semana, feriados).
+* * Registro de fichajes (entradas y salidas) para el control de horas efectivas de trabajo.
+* * Gestión de imprevistos: ausencias, licencias médicas, tardanzas y reasignación urgente de estaciones o roles.
+* Compensaciones y Nómina
+
+
+* Cálculo de horas regulares, horas extras y recargos nocturnos.
+* * Administración, registro y distribución del "tronco" o pozo de propinas, dependiendo del modelo de negocio del local.
+* * Liquidación de sueldos y gestión de posibles adelantos de efectivo.
+* Capacitación y Normativa
+
+
+* Inducción inicial sobre el menú, alérgenos y estándares de atención al cliente.
+* * Entrenamiento técnico en el uso del software de punto de venta (POS) y toma de comandas.
+* * Supervisión del cumplimiento de normativas de seguridad e higiene y manipulación de alimentos.
+* Clima Laboral y Operaciones Internas
+
+
+* Mediación de conflictos operativos, especialmente para minimizar la fricción clásica entre el personal de cocina y el de salón durante el servicio.
+* * Gestión del inventario de recursos humanos: entrega, reposición y control de uniformes.
+* * Coordinación de los beneficios diarios, como la asignación de la comida del personal antes o después de los turnos.
+* Para complementar el modelado de estos procesos, sería útil preguntarle al experto cómo fluye la información en el sistema cuando un empleado reporta una falta de último minuto y qué protocolos de contingencia se activan para no afectar las ventas.

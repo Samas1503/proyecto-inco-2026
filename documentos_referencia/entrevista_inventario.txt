@@ -1,0 +1,147 @@
+﻿Transcripción de la Entrevista (Limpia)
+
+
+Entrevistador: Muchachos, buenas tardes. Muchísimas gracias por darnos un poco de su tiempo.
+
+
+Entrevistado: Sí, a esta hora tengo más tiempo.
+
+
+Entrevistador: Nosotros vamos a proceder con unas cuantas preguntas, son 15 en total. ¿Cuáles son los pasos que realiza a la hora de administrar el inventario o los insumos del restaurante?
+
+
+Entrevistado: Yo primero con los chicos revisamos toda la mercadería y de ahí ellos me empiezan a mandar mensajes, y aparte el turno noche también hacen una revisión al último momento. Junto con el de la mañana me mandan los mensajes y me dicen 'falta todo esto', y ya tengo todo listo para ver qué voy a comprar.
+
+
+Entrevistador: ¿Qué tareas realiza como responsable de las compras de insumos comestibles?
+
+
+Entrevistado: Yo las compro. Compro las cosas que faltan y supongamos que si hay algunas cosas que no es necesario comprar en ese momento, lo dejo para más tarde. No lo hago todo en esas horas. A la tarde, si ya se necesita cierta mercadería, la compro en ese momento, también por la falta monetaria. Voy buscando los precios, sé dónde están en oferta y las compro.
+
+
+Entrevistador: ¿Cuáles son las herramientas de trabajo que utiliza día a día para mantener actualizado el inventario? ¿Anota sus registros?
+
+
+Entrevistado: Todos los días compramos mercadería. Los fines de semana cuando se espera más gente se compra un poco más. Los domingos no abren los negocios y todo el mundo sale a disfrutar, entonces ahí se compra más para surtir mañana, tarde y noche. No anoto nada. Me avisan los chicos qué falta y rápido salgo a comprar. Si no puedo, le doy la orden a la encargada de caja de que compre en cierto lugar con buen precio. No anoto nada, lo tengo todo registrado en mi cabeza.
+
+
+Entrevistador: ¿Cómo administran el depósito donde están guardados los insumos?
+
+
+Entrevistado: En esa parte reniego mucho. Los chicos ordenan, pero a veces se olvidan porque en el turno noche están cansados y les falta ordenar, y a la mañana tienen que ordenar. Las bebidas blancas (gaseosas, cerveza, vino) sí las tengo en depósito. Trato de comprar casi al día por el precio. Lo que es la comida, la compro todos los días. Las carnes no se pueden guardar mucho tiempo porque van tomando un color diferente y ya no se pueden sacar, se separan.
+
+
+Entrevistador: ¿Tienen mercadería congelada?
+
+
+Entrevistado: Sí, lo tenemos todo congelado. Separado con folex, todo está congelado. Es más fácil porque se saca, se separa con el folex y se tira a la plancha.
+
+
+Entrevistador: ¿Qué acciones toma cuando el inventario físico no concuerda con el registro que lleva?
+
+
+Entrevistado: Me pasó hace unos meses que me faltaba carne. Hacía contar las fetas de carne de pulpa (lomito, milanesa) y veía que faltaba. Revisaba las comandas de las ventas y lo que había en caja; no concordaba la venta de carne. Supongamos que salieron 3 lomitos y 2 milanesas, pero me faltaba más carne. Hacía contar cuántas fetas quedaban y ahí descubrí quién se llevaban la carne.
+
+
+Entrevistador: ¿Qué hace cuando no hay stock para preparar las comidas?
+
+
+Entrevistado: Lo mando a sacar rápido a alguien que vaya a comprar. Como tenemos cerca los negocios, mando a los muchachos y consiguen inmediatamente. Un domingo a la tarde a veces no se consiguen carnicerías abiertas, si se termina y pidieron mucho de eso, lamentablemente ya no queda y ofrecemos otro producto.
+
+
+Entrevistador: ¿Qué impacto tiene la variación de precios en los platos?
+
+
+Entrevistado: Ahora me acabo de enterar que subió la carne. Se tiene que subir la parte de las comidas en el mismo porcentaje. Si subió un 5%, se sube un 5% al plato. Pero las bebidas las dejamos como están, porque a la gente le gusta tomar y, gracias a la bebida, podemos comprar las demás mercaderías.
+
+
+Entrevistador: ¿Con qué regularidad realiza pedidos a proveedores?
+
+
+Entrevistado: Yo las compro. No uso casi proveedores. Solo el que trae el hielo y el de la cerveza. Las demás cosas las traigo yo. Si un proveedor no puede sostener el precio, lo cambio por otro. Me pasó con una carnicería que desapareció el dueño, otra la tenía más barato y probé esa nueva; como este señor no podía sostener el precio, cambió.
+
+
+Entrevistador: ¿Qué tiene en cuenta al elegir los menús del día?
+
+
+Entrevistado: En los días de frío se ofrece menú caliente (sopas). Se sigue manteniendo el menú habitual (lomitos, sándwiches, pizzas), pero tenemos pocos menús, la gente va más a tomar y a comer un sándwich. Las familias son las que buscan menú.
+
+
+Entrevistador: ¿Cómo manejan las sobras de insumos no reutilizables?
+
+
+Entrevistado: Esos productos que separamos porque cambian de color, los chicos preparan algo y en la noche vienen perritos de la calle y les vamos dando la comida.
+Análisis Estructural de Textos (Unidad 2 - Adquisición de Conocimientos)
+A continuación se aplica la técnica de Análisis Estructural de Textos sobre la transcripción, dividida en las tres categorías definidas en la teoría.
+Categoría 1: Términos determinados por el IC
+En esta categoría, como Ingeniero de Conocimiento (IC), he seleccionado términos específicos para entender las problemáticas del restaurante:
+
+
+* Falta / Faltante: Se detecta que el control de faltantes es netamente visual y comunicacional (mensajes de texto), sin registro escrito.
+* Precio / Oferta: Es el factor decisivo para la compra diaria y el cambio de proveedores.
+* Sobras / Separar: Indica el protocolo de descarte de carne oxidada (cambio de color), la cual se destina a alimentación de animales.
+Categoría 2: Términos preestablecidos y dependientes del dominio
+Se buscaron términos propios del dominio de 'Administración de Inventario Gastronómico':
+
+
+* Mercadería / Insumos: Diferenciados claramente en dos flujos: bebidas (van a depósito) y carnes/comida (compra diaria, se congelan con folex).
+* Comandas / Caja: Utilizados como método de auditoría cruzada cuando se detectan discrepancias en el inventario físico (conteo de fetas de carne).
+* Proveedores: Uso mínimo. La mayoría del abastecimiento es de autogestión (compras directas en negocios cercanos).
+Categoría 3: Términos preestablecidos e independientes del dominio (Patrones Gramaticales)
+Para esta categoría, teóricamente se requiere una herramienta automatizada de detección de estructuras gramaticales, pero se aplicó el principio buscando manualmente patrones relacionales lógicos ('A causa B', 'Si A entonces B') dentro del texto:
+
+
+Patrón [Condición] -> [Acción]:
+
+
+* SI [Falta insumo en el momento] ENTONCES [Manda a la cajera o empleados a comprar a negocios cercanos].
+* SI [Carne cambia de color] ENTONCES [Se separa, se cocina y se da a los perros].
+* SI [Aumenta precio de insumo] ENTONCES [Aumenta precio del plato en el mismo porcentaje] Y [Mantiene precio de bebidas].
+* SI [Día de frío] ENTONCES [Se agrega menú caliente (sopa)].
+
+
+Patrón [Entidad A] es responsable de [Tarea B]:
+
+
+* [Turno noche y mañana] -> Revisar mercadería y enviar mensajes.
+* [Dueño/Entrevistado] -> Buscar precios y ejecutar las compras de comida.
+* [Proveedores] -> Abastecer exclusivamente hielo y cerveza.
+
+
+Este análisis demuestra que el proyecto del sistema es completamente viable y, sobre todo, una necesidad urgente para el orden y crecimiento del restaurante. Actualmente, casi todo el control del negocio recae exclusivamente en la memoria del dueño y en comunicaciones informales, como los mensajes de texto con los empleados de los distintos turnos. Si bien este método funciona gracias a la enorme experiencia del experto, genera una carga de estrés importante, aumenta el riesgo de errores humanos y hace que tareas como el control de mermas o la actualización de precios sean lentas y repetitivas
+Al transformar estas "reglas mentales" en un sistema basado en conocimiento, el objetivo no es cambiar la esencia de cómo trabaja el restaurante, sino brindarle al dueño un asistente digital. El software centralizará la información que hoy está dispersa, permitiendo cruzar datos de ventas con el inventario físico en tiempo real. De esta manera, se eliminará la dependencia absoluta de la memoria y la presencia física del dueño para cada pequeño detalle, permitiéndole delegar tareas con total seguridad, detectar irregularidades al instante y tomar decisiones comerciales (como el cambio de proveedores o la fijación de precios) de forma mucho más rápida y fundamentada.
+INTENTAR PLANTEAR LA TECNICA Y HABLAR CON EL EXPERTO DIRECTAMENTE CON ELLA PA LA SIGUIETE REUNION.
+Estudio de Viabilidad CARVE (Revisión Crítica y Analítica)
+C - Caso de Uso | [ALTO]
+Existe un problema claro, real y de alto impacto económico para el negocio. La falta de un registro estructurado y la dependencia visual han generado discrepancias en el inventario, permitiendo pérdidas y robos de insumos de alto costo, como la carne. Automatizar la conciliación entre las comandas de venta y el stock físico resolverá una vulnerabilidad crítica del restaurante.
+A - Alcance | [MEDIO]
+Aunque el dominio físico está contenido en un solo local, el alcance operativo presenta variables caóticas que dificultan su delimitación estricta. El modelo de abastecimiento es altamente informal: el dueño no opera con proveedores fijos, sino que compra la mercadería diariamente en distintos negocios según la conveniencia del precio. Adicionalmente, existe un riesgo en la viabilidad organizacional, dado que los empleados del turno noche finalizan su jornada cansados y omiten tareas de ordenamiento, lo que obligará a limitar el alcance de las interacciones manuales del sistema para evitar que el software sea abandonado.
+R - Reglas | [MEDIO]
+La extracción y representación del conocimiento formal presenta obstáculos considerables, ya que el sistema actual se fundamenta casi por completo en el conocimiento tácito y las heurísticas del experto. El dueño gestiona el inventario bajo la premisa de tenerlo "todo registrado en mi cabeza" y toma decisiones de compra anticipadas basándose en intuiciones no estructuradas, como festividades locales o eventos deportivos específicos. Modelar lógicamente estas predicciones intuitivas requerirá un esfuerzo profundo de educción que va más allá de un simple cálculo de entradas y salidas.
+V - Viabilidad Técnica | [ALTO]
+Se cuenta con las herramientas, los lenguajes de programación y la infraestructura de hardware necesarios para construir la solución. La implementación técnica de bases de datos relacionales y motores de inferencia para procesar transacciones de caja y descontar el stock es un problema computacional estándar y completamente resoluble por un equipo de ingeniería.
+E - Explicabilidad | [ALTO]
+El sistema necesita un alto grado de transparencia para justificar sus decisiones y ganar la confianza del experto. Si el software emite una alerta indicando un faltante de mercadería o sugiere una discrepancia en el stock, deberá desglosar su razonamiento mostrando exactamente cuántas comandas se registraron, qué ingredientes contenía cada plato y cuál debería ser el remanente físico. Sin esta explicabilidad detallada, el dueño no delegará el control que actualmente lleva en su memoria.
+Con tres dimensiones evaluadas en nivel "ALTO" y dos en "MEDIO", la metodología indica que el proyecto supera el umbral mínimo de viabilidad y tiene luz verde para su desarrollo. La rebaja en las puntuaciones de Alcance y Reglas no cancela el proyecto, pero actúa como un mapa de riesgos: el equipo de ingeniería deberá priorizar el diseño de una interfaz extremadamente simplificada para mitigar el cansancio del personal nocturno y construir un modelo de base de datos lo suficientemente flexible para soportar compras informales diarias sin proveedores fijos.
+
+
+ANOTACIONES
+ella no tiene nada en papel ni en excel
+no tenía control de los insumos
+su principal fuente de ingresos proviene de la venta de bebidas
+COMIDAS QUE VENDE:
+sandwiches, napos, pizzas, y bebidas vende y comidas al plato pero esas basicas como costeletas, milas y eso
+
+
+
+
+OBJETIVOS SIGUIENTE REUNIÓN
+
+
+PREGUNTAS:
+Descripción del paso a paso de la tarea de comprar los productos, almacenarlos y conservarlos.
+Que productos son los que se necesitan consumir rápido/en el día?
+Cual es la planificación que hace en caso de que se presenten eventos que afecten positiva o negativamente en las ventas?
+ANÁLISIS DE TAREA:
+Describa el paso a paso de la hora de comprar los productos, almacenarlos y conservarlos.
+DESDE EL MOMENTO EN QUE PIENSA EN COMPRARLOS HASTA EL MOMENTO EN CONSERVARLOS DE SER NECESARIO.

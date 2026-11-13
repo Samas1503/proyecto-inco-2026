@@ -1,0 +1,71 @@
+﻿Objetivo: 
+Aprender a cómo se administra la parte de insumo/inventario en un restaurante 
+Preguntas de tipo no estructurada
+1. ¿Cuáles son los pasos que realiza a la hora de administrar el inventario/insumo del restaurante?
+2. ¿Qué tareas hace como administrador de las compras de insumos comestibles de un restaurante?
+3. ¿Cuáles son las herramientas de trabajo que utiliza día a día para llevar el inventario de los insumos actualizado?
+4. ¿Cómo administran el depósito en donde están guardados los insumos?
+5. ¿Tiene usted alguna forma/estándar/protocolo de mantener los productos en buen estado? ¿Cómo funciona?
+6. ¿Qué acciones toma cuando al revisar el inventario de forma física, este no concuerda con el registro que lleva?
+7. ¿Qué es lo que hace cuando no hay inventario/stock de los comestibles para preparar las comidas?
+8. ¿Cuál es el impacto que tiene en la administración del inventario la variación de los precios de los insumos en el mercado? ¿Interviene en los precios de los platos?
+9. ¿Cómo maneja el inventario de insumos cuando el restaurante está lleno?
+10. ¿Con qué regularidad realiza pedidos a los proveedores?
+11. ¿En caso de tener dificultades por parte del proveedor? Por ejemplo, el proveedor no envía o no tiene suficiente stock del producto. ¿Cómo lo gestiona?
+12. ¿Qué condiciones se tienen que producir para cambiar de proveedor?
+13. ¿Qué es lo que tiene en cuenta al momento de elegir los menús del día? En caso de cambiar el menú, ¿cómo influye esto en la administración de los insumos?
+14. ¿Cómo manejan el “resto” o “sobras” de los insumos reutilizables que quedan del día?
+15. ¿Cómo manejan el “resto” o “sobras” de los insumos no reutilizables que quedan del día?
+
+
+Pregunta 15 y 14 respondidas se los da a los perritos de la calle
+Objetivos:
+* Comprender el modelo de administración y flujo vital de insumos e inventarios dentro del entorno gastronómico.
+Objetivos Específicos (Enfoque Ingeniería del Conocimiento) 
+1. Capturar la heurística de resolución de crisis (Gestión de Excepciones)
+* De dónde sale: De tus preguntas sobre qué hace cuando el proveedor falla o se quedan sin stock.
+* Qué significa: El sistema no necesita saber qué pasa cuando todo sale bien (eso lo hace un software común). El objetivo es descubrir las reglas mentales (atajos) que usa el experto para apagar incendios en tiempo real.
+2. Identificar las variables de contexto para la predicción de demanda
+* De dónde sale: De tus preguntas sobre eventos de 100% de ocupación y selección del menú.
+* Qué significa: Descubrir exactamente qué datos cruza el experto en su cabeza antes de comprar. ¿Se fija en el clima de Jujuy? ¿En si es fin de semana largo? ¿En feriados locales? El objetivo es listar esas variables, porque serán las "entradas" de su sistema.
+3. Extraer los criterios de adaptación y evaluación (Mermas y Calidad)
+* De dónde sale: De tus preguntas sobre cómo mide la calidad, cómo maneja los restos y los vencimientos.
+* Qué significa: Entender la lógica de descarte o reutilización de productos para poder programar reglas que minimicen el desperdicio.
+4. Fundamentar la toma de decisiones (Para el Módulo de Explicación)
+* De dónde sale: De tus preguntas sobre qué se decide cuando un menú no es bien recibido o hay disgustos.
+* Qué significa: Recopilar el por qué detrás de las decisiones del experto, para que cuando el sistema inteligente sugiera una acción en el futuro, tenga los argumentos reales para justificarla ante el usuario.
+1. Introducción y Rol (El Rompehielo)
+El objetivo aquí es relajar al experto, entender su panorama general y validar su autoridad.
+* ¿Cómo se capacitó para gestionar el restaurante?
+* ¿Qué tareas hace en su día a día como administrador de las compras de insumos comestibles?
+2. Planificación y Pre-Compra (Anticipación)
+Aquí buscan entender cómo el experto "predice" el futuro y decide qué comprar antes de llamar al proveedor.
+* ¿En qué situaciones (eventos, clima, fechas) posiblemente tengan la ocupación del restaurante al 100%?
+* ¿Qué es lo que tiene en cuenta al momento de elegir o diagramar los menús del día?
+* ¿En base a qué variables exactas decide realizar el reabastecimiento de comestibles? (¿Toma en cuenta el clima, feriados, etc.?)
+3. Proveedores y Recepción (El Ingreso al Local)
+Cómo maneja la relación externa y la entrada de la mercadería.
+* ¿Cómo se mide la calidad de un producto cuando ingresa al local o al momento de elegirlo?
+* ¿Qué hace en caso de tener dificultades por parte del proveedor? Por ejemplo, si el proveedor no envía la mercadería o no tiene suficiente stock de un producto crítico, ¿cómo lo gestiona?
+4. Operación y Gestión de Crisis (El Servicio en Vivo)
+Esta es la parte de "fuego" donde salen las mejores reglas lógicas para el sistema inteligente.
+* ¿Tiene usted alguna forma, estándar o protocolo estricto para preparar/posicionar los productos antes de abrir el local? ¿Cómo funciona?
+* ¿Qué es lo que hace cuando, en pleno servicio, se da cuenta de que no hay inventario/stock de los comestibles para preparar las comidas?
+* En caso de tener una demanda inusualmente grande sobre un producto específico y quedarse sin stock para su elaboración, ¿qué se piensa o qué decisión rápida se toma en el momento?
+5. Post-Servicio, Mermas y Vencimientos (El Control de Daños)
+Aquí rastrean cómo evita perder dinero con lo que sobra o se echa a perder.
+* ¿Cómo manejan el “resto” (sobras o preparaciones previas) que queda al final del día?
+* ¿Cómo gestiona el control de vencimiento de los productos en las cámaras y depósitos?
+* ¿Cuándo y cómo se dan cuenta de que un comestible ya no puede ser consumido o utilizado en otra preparación?
+6. Retroalimentación (El Ajuste Estratégico)
+Cómo la respuesta del cliente modifica las compras futuras.
+* ¿Alguna vez pasó que un menú no fue bien recibido por los comensales? ¿Qué se decidió en ese caso para no quedarse con los insumos estancados? ¿Tendría una experiencia que nos pueda comentar sobre qué medidas tomó?
+* Si hubo disgustos específicos con un plato, ¿cómo manejan esa situación desde la cocina y las compras?
+Un consejo extra para la entrevista: Como las preguntas son "no estructuradas", el experto seguramente responderá con anécdotas largas. Estén muy atentos a detectar las palabras "Si pasa X... entonces yo hago Y". Cada vez que escuchen esa estructura en sus respuestas, ¡ahí tienen una regla de oro para programar su Sistema Basado en Conocimiento!
+Preguntas sobre residuos no usables e usables
+1. Si hubo disgustos con un plato, ¿cómo manejan esa situación? 
+2. En caso de tener una demanda grande sobre un producto y quedarse sin stock para su elaboración, que se piensa en el momento?  
+3. Alguna vez, pasó que un menú no fue bien recibido por los comensales? que se decidió en ese caso? tendría una experiencia que nos pueda comentar de como solucionar y qué medidas tomó para esa ocasión?  
+1. ¿Cómo gestiona el vencimiento de productos?
+2. ¿Cuándo se dan cuenta que un comestible ya no puede ser consumido?
+3. ¿En caso de apagones, cómo  gestiona aquellos insumos que necesitan frío?

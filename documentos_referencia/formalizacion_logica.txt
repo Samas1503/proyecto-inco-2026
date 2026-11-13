@@ -1,0 +1,259 @@
+﻿Formalización Lógica y Encadenamiento Hacia Adelante
+1. Representación Simbólica de la Base de Reglas
+Diccionario de Proposiciones (Hechos y Acciones)
+* A: Día es Fin de semana
+* B: Día es Domingo
+* C: Aumentar compra de mercadería
+* D: Surtir para mañana, tarde y noche
+* E: Evento es Partido Boca/River
+* F: Planificar turnos temprano y tarde
+* G: Comprar bebidas de forma gradual
+* H: No comprar bebidas de golpe
+* I: Evento es Desfile 23 de Agosto
+* J: Competencia es Alta
+* K: Reducir expectativa de demanda
+* L: Evitar sobrestock
+* M: Temperatura es frío
+* N: Ofrecer menú caliente (sopas)
+* O: Mantener menú habitual
+* P: Ofrecer sándwiches y pizzas
+* Q: Fecha es quincena o cobro
+* R: Clima es soleado
+* S: Reservas son grupos grandes
+* T: Comportamiento es Alta Bebida y Baja Comida
+* U: Aumentar compra de destilados y snacks
+* V: Reducir compra de vegetales
+* W: Tipo de cliente es Familia
+* X: Preferencia es Menú al plato
+* Y: Tipo de cliente es Jóvenes
+* Z: Preferencia es Bebidas y sándwiches
+* AA: Producto es Cerveza
+* AB: Prioridad de compra es Alta y Rotación muy rápida
+* AC: Producto es Pre-pizza, Queso, Jamón o Salsa
+* AD: Prioridad de compra es Alta y Rotación rápida
+* AE: Tarea es Compra Diaria
+* AF: Desplazarse a mercados favoritos
+* AG: Pagar con Efectivo, Transferencia o Tarjeta
+* AH: Dueña no está disponible
+* AI: Delegar compra a Encargada de caja
+* AJ: Producto es Hielo
+* AK: Origen de compra son Proveedores Fijos
+* AL: Local favorito no sostiene precio
+* AM: Otro local tiene precio más barato
+* AN: Cambiar de local/proveedor
+* AO: Producto es Bebida Blanca, Gaseosa o Vino
+* AP: Destino de almacenamiento es Depósito
+* AQ: Ingresa mercadería nueva
+* AR: Ubicar nuevo atrás y viejo adelante
+* AS: Producto es Carne o Comida Diaria
+* AT: Tiempo de guardado corto y compra diaria
+* AU: Producto es Carne
+* AV: Separar en porciones con folex
+* AW: Producto es Carne en folex
+* AX: Congelar
+* AY: Ingresa comanda de Carne
+* AZ: Sacar porción congelada directo a plancha
+* BA: Llega mercadería al local
+* BB: Acomodar lugares y conservar para horas pico
+* BC: Momento es Crítico y Falta Insumo
+* BD: Negocios cercanos abiertos
+* BE: Mandar empleado a comprar
+* BF: Día es Domingo por la tarde
+* BG: Carnicerías están cerradas
+* BH: Dar de baja producto y ofrecer alternativa
+* BI: Color de carne es oscuro
+* BJ: Separar de venta y cocinar para animales de la calle
+* BK: Aumenta costo de carne
+* BL: Aumenta precio de plato
+* BM: Aumenta costo de bebida
+* BN: Mantener precio de bebida
+Reglas de Producción
+1. Si A o B entonces C, D
+2. Si E entonces F
+3. Si E entonces G, H
+4. Si I, J entonces K, L
+5. Si M entonces N
+6. Si M entonces O, P
+7. Si Q, R, S entonces T
+8. Si T entonces U
+9. Si T entonces V
+10. Si W entonces X
+11. Si Y entonces Z
+12. Si AA entonces AB
+13. Si AC entonces AD
+14. Si AE entonces AF
+15. Si AE entonces AG
+16. Si AH entonces AI
+17. Si AJ o AA entonces AK
+18. Si AL, AM entonces AN
+19. Si AO entonces AP
+20. Si AQ entonces AR
+21. Si AS entonces AT
+22. Si AU entonces AV
+23. Si AW entonces AX
+24. Si AY entonces AZ
+25. Si BA entonces BB
+26. Si BC, BD entonces BE
+27. Si BC, BF, BG entonces BH
+28. Si BI entonces BJ
+29. Si BK entonces BL
+30. Si BM entonces BN
+2. Ejemplos de Encadenamiento Hacia Adelante (Forward Chaining)
+Caso 1: El objetivo operativo es determinar la estrategia de oferta de menú y predecir el tipo de consumo
+
+
+Ciclo
+	Equiparación
+	Conjunto de Conflicto
+	Resolución de Conflicto
+	Disparo
+	BH0
+	{M, W}
+	
+
+	
+
+	
+
+	1
+	R5 (M): Satisfecha M ∈ BH0
+R6 (M): Satisfecha M ∈ BH0
+R10 (W): Satisfecha W ∈ BH0
+R1 (A, B): Incompleta A, B ∉ BH0
+	{R5, R6, R10}
+	R5
+	N
+	BH1
+	{M, W, N}
+	
+
+	
+
+	
+
+	2
+	R5 ya fue disparada.
+R6 (M): Satisfecha porque M ∈ BH1
+R10 (W): Satisfecha porque W ∈ BH1
+	{R6, R10}
+	R6
+	O, P
+	BH2
+	{M, W, N, O, P}
+	
+
+	
+
+	
+
+	3
+	R5, R6 ya fueron disparadas.
+R10 (W): Satisfecha porque W ∈ BH2
+	{R10}
+	R10
+	X
+	BH3
+	{M, W, N, O, P, X}
+	
+
+	
+
+	
+
+	Al finalizar la cadena (en la BH3), el sistema cumple este objetivo entregando su recomendación final: el local debe sumar sopas y menú caliente (N), mantener los sándwiches habituales (O, P) y anticipar que el cliente querrá comida al plato (X). 
+
+
+Caso 2: Gestión de Crisis un Domingo 
+
+
+Objetivo de la cadena: Determinar el comportamiento de consumo y ajustar las compras (inferir T, U y V a partir de Q, R, S).
+Ciclo
+	Equiparación
+	Conjunto de Conflicto
+	Resolución de Conflicto
+	Disparo
+	BH0
+	{Q, R, S}
+	
+
+	
+
+	
+
+	1
+	R7 (Q, R, S): Satisfecha Q, R, S ∈ BH0
+R8 (T): Incompleta T ∉ BH0
+R9 (T): Incompleta T ∉ BH0
+	{R7}
+	R7
+	T
+	BH1
+	{Q, R, S, T}
+	
+
+	
+
+	
+
+	2
+	R7 ya fue disparada.
+R8 (T): Satisfecha porque T ∈ BH1
+R9 (T): Satisfecha porque T ∈ BH1
+	{R8, R9}
+	R8
+	U
+	BH2
+	{Q, R, S, T, U}
+	
+
+	
+
+	
+
+	3
+	R7, R8 ya fueron disparadas.
+R9 (T): Satisfecha porque T ∈ BH2
+	{R9}
+	R9
+	V
+	BH3
+	{Q, R, S, T, U, V}
+	
+
+	
+
+	
+
+	El sistema concluye que, ante la falta de insumos en un horario con comercios proveedores cerrados, la decisión operativa es dar de baja el plato afectado y ofrecer una alternativa inmediata al cliente (Hecho deducido: BH). Esta acción permite al personal de salón reaccionar rápidamente para mitigar la insatisfacción del comensal sin depender de la intervención de la dueña. 
+CASO 3: Ajuste de Menú por Clima y Público 
+Objetivo de la cadena: Definir la acción a tomar ante la falta de insumos en un momento crítico sin comercios abiertos disponibles (inferir BH a partir de BC, BF y BG).
+
+
+Ciclo
+	Equiparación
+	Conjunto de Conflicto
+	Resolución de Conflicto
+	Disparo
+	BH0
+	{BC, BF, BG}
+	
+
+	
+
+	
+
+	1
+	R26 (BC, BD): Incompleta porque BD ∉ BH0
+R27 (BC, BF, BG): Satisfecha BC, BF, BG ∈ BH0
+	{R27}
+	R27
+	BH
+	BH1
+	{BC, BF, BG, BH}
+	
+
+	
+
+	
+
+	El motor de inferencia determina que, frente a bajas temperaturas y una clientela familiar, el restaurante debe habilitar el menú caliente y sopas (Hecho: P), mantener la carta habitual de sándwiches y pizzas (Hecho: Q) y anticipar un consumo orientado a la comida al plato (Hecho: R). Esta conclusión organiza la producción de la cocina para satisfacer una demanda mixta y adaptar la oferta al perfil exacto del cliente presente.
