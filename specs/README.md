@@ -2,7 +2,21 @@
 ### Trabajo de Campo – Inteligencia del Conocimiento (InCo 2026)
 **Grupo 02 – FI-UNJu**
 
-Este directorio contiene las especificaciones técnicas individuales para cada integrante del equipo, garantizando que todo el código y la documentación se integren de forma cohesiva sobre la arquitectura base ya desarrollada en el [**Punto 2 (`implementacion/marcos.py`)**](../implementacion/marcos.py).
+Este directorio contiene las especificaciones técnicas individuales para cada integrante del equipo, garantizando que todo el código y la documentación se integren de forma rigurosa y cohesiva sobre la arquitectura base ya desarrollada en el [**Punto 2 (`implementacion/marcos.py`)**](../implementacion/marcos.py).
+
+---
+
+## 🏛️ Los Dos Pilares Metodológicos Oficiales del Proyecto
+
+Todas las especificaciones y desarrollos técnicos del equipo se basan formalmente en:
+
+1. **La Clase Magistral del Ing. Mitchell Blancas:** [Sistema experto y SBC con Experta en Python](https://youtu.be/wZz7ZKaEyGQ).
+   * Define la sintaxis canónica en Python: herencia de `Fact`, métodos `@Rule`, captura de hechos con `AS`, emparejamiento con `MATCH`, aserción reactiva con `self.declare(...)` y el ciclo de vida del motor (`reset`, `run`).
+2. **El Tutorial de CLIPS (I) de la Universidad de Jaén:** [`documentos_referencia/clips_tutorial_ujaen.txt`](../documentos_referencia/clips_tutorial_ujaen.txt) (*Prof. Fernando Martínez Santiago*).
+   * Establece las directivas fundamentales de los Sistemas de Producción:
+     * El encadenamiento hacia adelante debe ser **100% reactivo (*data-driven*)**, basado en hechos intermedios y nunca llamando una regla desde otra.
+     * Prevención de bucles infinitos con patrones de no-existencia (`NOT`).
+     * Trazabilidad de la Agenda y resolución del conjunto de conflicto emulando las directivas `(watch facts)` y `(watch rules)`.
 
 ---
 
@@ -22,7 +36,12 @@ Voy a desarrollar mi consigna asignada para el Trabajo de Campo de Inteligencia 
 REGLA CRÍTICA:
 No generes código ni soluciones completas de inmediato.
 Activa el modo "grill-with-me": primero analiza mi consigna, lee la especificación y hazme un cuestionario interactivo con preguntas de decisión de diseño (con opciones recomendadas) para alinear y validar cada detalle técnico antes de escribir una sola línea de código.
-Es mandatorio que te bases 100% en el archivo de marcos ya desarrollado en el repositorio (implementacion/marcos.py) y en el diccionario formal de 66 proposiciones (documentos_referencia/formalizacion_logica.txt).
+
+Es mandatorio que te bases 100% en:
+1. El archivo de marcos ya desarrollado en el repositorio (implementacion/marcos.py).
+2. El diccionario formal de 66 proposiciones (documentos_referencia/formalizacion_logica.txt).
+3. Los patrones canónicos de Python Experta demostrados por Mitchell Blancas (video https://youtu.be/wZz7ZKaEyGQ).
+4. Las reglas de diseño de Sistemas de Producción del tutorial de CLIPS de la Universidad de Jaén (documentos_referencia/clips_tutorial_ujaen.txt).
 ```
 
 ---
@@ -43,4 +62,5 @@ Es mandatorio que te bases 100% en el archivo de marcos ya desarrollado en el re
 * **Marcos y Base de Hechos:** [`implementacion/marcos.py`](../implementacion/marcos.py)
 * **Cuaderno Central:** [`implementacion/IC2026 - Trabajo de Campo - G2.ipynb`](../implementacion/IC2026%20-%20Trabajo%20de%20Campo%20-%20G2.ipynb)
 * **Diccionario de 66 Proposiciones y Reglas:** [`documentos_referencia/formalizacion_logica.txt`](../documentos_referencia/formalizacion_logica.txt)
+* **Tutorial de CLIPS UJaén:** [`documentos_referencia/clips_tutorial_ujaen.txt`](../documentos_referencia/clips_tutorial_ujaen.txt)
 * **Estructura del Frontend:** [`frontend/app.py`](../frontend/app.py)
