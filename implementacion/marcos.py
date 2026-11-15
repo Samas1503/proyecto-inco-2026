@@ -409,7 +409,7 @@ def cargar_interactivo():
 class MotorDemostracionCaso1(KnowledgeEngine):
     """
     Motor mínimo de demostración para verificar que los marcos de Punto 2
-    se equiparan y disparan las reglas del Caso 1 sin conflicto.
+    se equiparan y disparan las reglas del Caso 1 sin conflicto ni bucles.
     """
     
     # R5: Si M (Temperatura es frío) -> N (Ofrecer menú caliente / sopas)
@@ -417,7 +417,8 @@ class MotorDemostracionCaso1(KnowledgeEngine):
         OR(
             Contexto(temperatura="frio"),
             HechoSimbolico(codigo="M")
-        )
+        ),
+        NOT(HechoSimbolico(codigo="N"))
     )
     def regla_r5_clima_frio_sopas(self):
         print("\n[DISPARO R5] -> Temperatura fría detectada.")
@@ -429,7 +430,8 @@ class MotorDemostracionCaso1(KnowledgeEngine):
         OR(
             Contexto(temperatura="frio"),
             HechoSimbolico(codigo="M")
-        )
+        ),
+        NOT(HechoSimbolico(codigo="O"))
     )
     def regla_r6_clima_frio_sandwiches(self):
         print("\n[DISPARO R6] -> Temperatura fría detectada.")
@@ -442,7 +444,8 @@ class MotorDemostracionCaso1(KnowledgeEngine):
         OR(
             Cliente(tipo="familia"),
             HechoSimbolico(codigo="W")
-        )
+        ),
+        NOT(HechoSimbolico(codigo="X"))
     )
     def regla_r10_cliente_familia(self):
         print("\n[DISPARO R10] -> Cliente tipo Familia detectado.")

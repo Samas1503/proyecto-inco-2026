@@ -11,9 +11,13 @@ Este directorio contiene la solución completa y ejecutable correspondiente al *
 ## 📂 Contenido del Directorio
 
 1. **[`IC2026 - Trabajo de Campo - G2.ipynb`](file:///home/samas1503/Descargas/materias/inco/Trabajo%20de%20Campo/implementacion/IC2026%20-%20Trabajo%20de%20Campo%20-%20G2.ipynb)** (y su alias **[`main.ipynb`](file:///home/samas1503/Descargas/materias/inco/Trabajo%20de%20Campo/implementacion/main.ipynb)**):
-   * Cuaderno principal del proyecto (reemplaza a `Untitled0.ipynb` siguiendo el estándar del grupo `IC2026 - TP0X - G2`).
+   * Cuaderno principal unificado del proyecto con la Base de Hechos (Punto 2) y la integración de las Reglas C, D y E (Punto 4 - Jona).
 2. **[`Punto2_Arquitecto_Base_Hechos.ipynb`](file:///home/samas1503/Descargas/materias/inco/Trabajo%20de%20Campo/implementacion/Punto2_Arquitecto_Base_Hechos.ipynb)**:
-   * Notebook enfocado específicamente en la entrega individual/modular del Punto 2.
+   * Notebook interactivo para **Google Colab** con la Base de Hechos, compatibilidad Python 3.10+, y la corrección con `NOT(HechoSimbolico(...))` para evitar dobles disparos en las reglas de prueba (R5, R6 y R10).
+3. **[`marcos.py`](file:///home/samas1503/Descargas/materias/inco/Trabajo%20de%20Campo/implementacion/marcos.py)**:
+   * Módulo independiente de Python con los Marcos de Minsky y cargadores de Memoria de Trabajo Inicial.
+4. **[`reglas_modulos_c_d_e.py`](file:///home/samas1503/Descargas/materias/inco/Trabajo%20de%20Campo/implementacion/reglas_modulos_c_d_e.py)**:
+   * Módulo independiente con la implementación de las Reglas 19 a 30 (Almacenamiento, Crisis Domingo Tarde y Mermas) desarrollada por Jonatan Perez Apumaita (Punto 4).
 3. **[`marcos.py`](file:///home/samas1503/Descargas/materias/inco/Trabajo%20de%20Campo/implementacion/marcos.py)**:
    * Módulo independiente de Python listo para ser importado por los **Puntos 3 y 4 (Ingenieros de Reglas Lógicas 1 y 2)** y el **Punto 5 (Desarrollador de Interfaz)**.
 
